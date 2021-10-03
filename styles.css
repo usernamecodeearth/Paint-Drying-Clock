@@ -1,0 +1,82 @@
+body{
+  background: #333;
+}
+.clock{
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+  margin: 200px auto 60px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtext {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  margin: -20px;
+}
+
+.subWarning{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 400px auto 0 auto;
+  font-size: .7em;
+}
+
+.clock span{
+  padding: 20px;
+  background: #444;
+  border-radius: 15%;
+}
+
+.rainbow{
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+  100%,0%{
+    color: rgb(255,0,0);
+  }
+  8%{
+    color: rgb(255,127,0);
+  }
+  16%{
+    color: rgb(255,255,0);
+  }
+  25%{
+    color: rgb(127,255,0);
+  }
+  33%{
+    color: rgb(0,255,0);
+  }
+  41%{
+    color: rgb(0,255,127);
+  }
+  50%{
+    color: rgb(0,255,255);
+  }
+  58%{
+    color: rgb(0,127,255);
+  }
+  66%{
+    color: rgb(0,0,255);
+  }
+  75%{
+    color: rgb(127,0,255);
+  }
+  83%{
+    color: rgb(255,0,255);
+  }
+  91%{
+    color: rgb(255,0,127);
+  }
+};
