@@ -1,6 +1,6 @@
 # Paint-Drying-Clock
 The longer the clock goes on, the drier your paint will become. Drying times may vary. 
-Link to clock: 
+Link to clock: https://usernamecodeearth.github.io/Paint-Drying-Clock/
 
 
 
